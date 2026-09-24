@@ -154,3 +154,6 @@ Thumbs.db
 .env.local
 *.db
 *.sqlite
+
+assets/*
+!assets/.gitkeep
