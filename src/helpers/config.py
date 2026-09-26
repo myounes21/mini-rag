@@ -15,4 +15,10 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
     )
 
+    ALLOWED_FILE_TYPES: list[str] = [
+        "application/pdf",
+        "text/plain",
+    ]
+    MAX_FILE_SIZE_MB: int = 10
+
 settings = Settings()
