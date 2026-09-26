@@ -21,4 +21,6 @@ class Settings(BaseSettings):
     ]
     MAX_FILE_SIZE_MB: int = 10
 
+    FILE_DEFAULT_CHUNK_SIZE: int = 512000 # 512KB
+
 settings = Settings()
